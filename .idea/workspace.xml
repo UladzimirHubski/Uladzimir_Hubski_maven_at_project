@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="Create Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="create" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,54 +57,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="Uladzimir_Hubski_AT_G7_Maven_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uladzimir_Hubski_AT_G7_Maven_Project" />
+  <component name="RunManager" selected="JUnit.MyTest.getAreaTest">
+    <configuration name="MyTest.getAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uladzimir_Hubski_Maven_AT_G7" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.MyAddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uladzimir_Hubski_AT_G7_Maven_Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="MyAddTest" />
+      <option name="METHOD_NAME" value="getAreaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.MyDivideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uladzimir_Hubski_AT_G7_Maven_Project" />
+    <configuration name="MyTest.getLengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uladzimir_Hubski_Maven_AT_G7" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="MyDivideTest" />
+      <option name="METHOD_NAME" value="getLengthTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.MyMultiplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uladzimir_Hubski_AT_G7_Maven_Project" />
+    <configuration name="MyTest.getWidthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uladzimir_Hubski_Maven_AT_G7" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="MyMultiplyTest" />
+      <option name="METHOD_NAME" value="getWidthTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.setLengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uladzimir_Hubski_Maven_AT_G7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="setLengthTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.setWidthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uladzimir_Hubski_Maven_AT_G7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="setWidthTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MyTest.MyDivideTest" />
-        <item itemvalue="JUnit.MyTest.MyMultiplyTest" />
-        <item itemvalue="JUnit.MyTest.MyAddTest" />
-        <item itemvalue="JUnit.MyTest" />
+        <item itemvalue="JUnit.MyTest.getAreaTest" />
+        <item itemvalue="JUnit.MyTest.setWidthTest" />
+        <item itemvalue="JUnit.MyTest.getWidthTest" />
+        <item itemvalue="JUnit.MyTest.setLengthTest" />
+        <item itemvalue="JUnit.MyTest.getLengthTest" />
       </list>
     </recent_temporary>
   </component>
