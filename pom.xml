@@ -27,7 +27,8 @@
                 <version>3.0.0</version>
                 <configuration>
                     <includes>
-                        <include>TestRunner.class</include>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <include>${myRunnerArg}</include>
                     </includes>
                 </configuration>
             </plugin>
