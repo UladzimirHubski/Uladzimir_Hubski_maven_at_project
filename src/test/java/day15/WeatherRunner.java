@@ -10,7 +10,7 @@ public class WeatherRunner {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
         driver.findElement(By.name("q")).sendKeys("погода минск");
-        driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div/ul/li[1]/div[1]/div[1]")).click();
+        driver.findElement(By.xpath("//*[@aria-label= \"погода минск\"]")).click();
 
     }
 }
