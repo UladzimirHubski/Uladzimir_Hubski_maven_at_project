@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="Create Runners">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day16/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day17/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day17/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day17/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day18Cucumber/DemoJunitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day18Cucumber/DemoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day18Cucumber/DemoSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/first.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day15/WeatherRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day15/WeatherRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="create" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +58,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Владимир/Uladzimir_Hubski_Maven_AT_G7/src/test/java/day18Cucumber&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -56,13 +68,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherRunner">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="Uladzimir_Hubski_AT_G7_Maven_Project" />
+  <component name="RunManager" selected="JUnit.DemoJunitTest">
+    <configuration name="Feature: first" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
+      <option name="GLUE" value="day18Cucumber" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Uladzimir_Hubski_Maven_AT_G7" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: first" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,25 +88,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day15.WeatherRunner" />
+    <configuration name="DemoJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_Maven_AT_G7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day15.*" />
+          <option name="PATTERN" value="day18Cucumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day18Cucumber" />
+      <option name="MAIN_CLASS_NAME" value="day18Cucumber.DemoJunitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.MyLineFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_Maven_AT_G7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="MyLineFalseTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18Cucumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day18Cucumber" />
+      <option name="MAIN_CLASS_NAME" value="day18Cucumber.DemoRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeatherRunner" />
-        <item itemvalue="JUnit.MyTest.MyLineFalseTest" />
-        <item itemvalue="JUnit.MyTest.MyLineTrueTest" />
+        <item itemvalue="JUnit.DemoJunitTest" />
+        <item itemvalue="JUnit.DemoRunner" />
+        <item itemvalue="Cucumber Java.Feature: first" />
         <item itemvalue="JUnit.MyTest.MySubstractTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MyTest.MyLineTrueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680443398438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create Runners">
+      <created>1681404665675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681404665675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +207,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Project" />
+    <MESSAGE value="Create Runners" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Runners" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
