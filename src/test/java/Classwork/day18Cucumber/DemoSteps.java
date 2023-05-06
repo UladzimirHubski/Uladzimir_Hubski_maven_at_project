@@ -1,4 +1,4 @@
-package day18Cucumber;
+package Classwork.day18Cucumber;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

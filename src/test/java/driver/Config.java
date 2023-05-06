@@ -1,4 +1,4 @@
-package day17;
+package driver;
 
 public enum Config {
         CHROME, FF, EDGE
