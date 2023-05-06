@@ -21,7 +21,7 @@ public class CreateEmail {
 
         make.doubleClick(driver.findElement(By.xpath("//input[@id='fe-name']"))).sendKeys("19vova93").perform();
 
-        driver.findElement(By.xpath("//input[@id='fe-forward']")).sendKeys("19vova93@mail.ru");;
+        driver.findElement(By.xpath("//input[@id='fe-forward']")).sendKeys("19vova93@mail.ru");
         driver.findElement(By.xpath("//div[@class='input-group input-group-sm input-group-btn']//div[@class='input-group-btn']")).click();
         driver.findElement(By.xpath("//div[@class='input-group input-group-sm input-group-btn']//div[@class='input-group-btn']//li[@role='presentation'][3]")).click();
         driver.findElement(By.xpath("//div[1][@class='input-group input-group-sm input-group-btn']//div[@class='input-group-btn']")).click();

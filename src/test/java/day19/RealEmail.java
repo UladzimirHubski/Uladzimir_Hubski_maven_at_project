@@ -16,7 +16,7 @@ public class RealEmail {
         driver.findElement(By.xpath("//input[@name =\"username\"]")).sendKeys("19vova93");
         driver.findElement(By.xpath("//button[@data-test-id='next-button']")).click();
         driver.findElement(By.xpath("//input[@name =\"password\"]")).sendKeys("5659vlad5659");
-        driver.findElement(By.xpath("//button[@data-test-id='submit-button']")).click();
+        driver.findElement(By.xpath("//button[@data-test-id='submit-button']")).click()1;
         driver.findElement(By.xpath("//a[@data-folder-link-id='2']")).click();
         driver.findElement(By.xpath("//a[@class='llc llc_normal llc_first llc_new llc_new-selection js-letter-list-item js-tooltip-direction_letter-bottom']//div[@class='llc__container']")).click();
         driver.findElement(By.xpath("//div[@class='letter__body']//a[@class='button_mr_css_attr']")).click();
