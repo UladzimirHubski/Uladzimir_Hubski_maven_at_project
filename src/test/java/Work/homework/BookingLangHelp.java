@@ -1,4 +1,4 @@
-package Work.Classwork.homework;
+package Work.homework;
 
 import objects.Booking.BookingLocators;
 import org.junit.After;
