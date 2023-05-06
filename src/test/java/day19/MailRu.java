@@ -15,7 +15,7 @@ public class MailRu {
         driver.get("https://account.mail.ru/login");
         driver.findElement(By.xpath("//input[@name =\"username\"]")).sendKeys("19vova93");
         driver.findElement(By.xpath("//button[@data-test-id='next-button']")).click();
-        driver.findElement(By.xpath("//input[@name =\"password\"]")).sendKeys("Amberg01!");
+        driver.findElement(By.xpath("//input[@name =\"password\"]")).sendKeys("-------");
         driver.findElement(By.xpath("//button[@data-test-id='submit-button']")).click();
         driver.findElement(By.xpath("//a[@data-folder-link-id='2']")).click();
         driver.findElement(By.xpath("//a[1][@class='llc llc_normal llc_first llc_new llc_new-selection js-letter-list-item js-tooltip-direction_letter-bottom']//div[@class='llc__container']")).click();
