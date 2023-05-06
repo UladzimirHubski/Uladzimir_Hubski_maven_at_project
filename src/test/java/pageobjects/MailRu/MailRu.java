@@ -1,4 +1,4 @@
-package objects.MailRu;
+package pageobjects.MailRu;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

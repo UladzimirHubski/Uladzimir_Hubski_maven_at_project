@@ -1,4 +1,4 @@
-package objects.Booking;
+package pageobjects.Booking;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

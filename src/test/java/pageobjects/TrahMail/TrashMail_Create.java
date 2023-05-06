@@ -1,4 +1,4 @@
-package objects.TrahMail;
+package pageobjects.TrahMail;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
