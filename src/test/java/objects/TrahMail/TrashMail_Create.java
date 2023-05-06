@@ -1,4 +1,4 @@
-package objects.Booking;
+package objects.TrahMail;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

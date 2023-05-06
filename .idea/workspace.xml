@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="Create Runners" />
+    <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="Create Runners">
+      <change beforePath="$PROJECT_DIR$/src/test/java/objects/Booking/BookingLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/Booking/BookingLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objects/Booking/MailRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/MailRu/MailRu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objects/Booking/TrashMail_Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/TrahMail/TrashMail_Create.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683366416951</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create Runners">
+      <created>1683366474082</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683366474082</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
