@@ -1,4 +1,4 @@
-package day18Cucumber;
+package Classwork.day18Cucumber;
 
 import org.junit.Test;
 

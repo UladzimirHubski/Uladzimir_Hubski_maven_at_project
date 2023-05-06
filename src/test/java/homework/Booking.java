@@ -1,5 +1,8 @@
-package day16;
+package homework;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,12 +11,25 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class Booking {
-    public static void main(String[] args) {
+
+    WebDriver driver = new ChromeDriver();
+
+
+    @Before
+    public void beforeTest() {
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(10));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+    }
+
+    @Test
+    public void BookingTest() {
+
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
-        //driver.manage().timeouts().setScriptTimeout(Duration.ofSeconds(5));
         driver.get("https://www.booking.com/");
 
         driver.findElement(By.xpath("//*[@role ='dialog']//*[@type = \"button\"]")).click();
@@ -33,7 +49,12 @@ public class Booking {
 
         driver.findElement(By.xpath("//button[@type = 'submit']")).click();
 
-
-
     }
+
+    @After
+    public void afterTests() {
+        driver.quit();
+    }
+
+
 }
