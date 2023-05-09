@@ -1,4 +1,4 @@
-package pageobjects.Booking;
+package pageobjects.booking_pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,6 +7,12 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BookingLocators {
     public WebDriver driver;
+
+
+
+
+
+
 
     public BookingLocators(WebDriver driver) {
         PageFactory.initElements(driver, this);
