@@ -2,18 +2,36 @@ package settings;
 
 public class BookingInputR {
 
-    String TrashEmail = "Elena_Hol_AT_G7";           // Example:
-    String TrashEmailDomain = "@trashmail.fr";    // Example: @
-    String Password = "!123Elena_Hol_AT_G7";                // Example: @
-    String MainEmail = "Mail.ru";          // Example:
-    String MainEmailPassword = "";
-    String MainEmailLogin = "Mail.ru";
+    public final static
+    String TrashEmail = "Elena_Hol_AT_G7";
 
-    String Booking = "https://account.booking.com/"; //account.booking.com
-    String BookigLogin = "https://account.booking.com/sign-in";//account.booking.com/sign-in
+    public final static
+    String TrashEmailDomain = "@trashmail.fr";
 
+    public final static
+    String Password = "!123Elena_Hol_AT_G7";
 
-    String CheckIn = "2023-05-25";                // Example: 2023-05-25
-    String CheckOut = "2023-05-29";              // Example: 2023-05-29
-    String City = "Париж";                  // Example: ÐÐ¸Ð»Ð°Ð½
+    public final static
+    String MainEmail = "https://account.mail.ru/login";
+
+    public final static
+    String MainEmailPassword = "Amberg01!";
+
+    public final static
+    String MainEmailLogin = "19vova93";
+
+    public final static
+    String Booking = "https://account.booking.com/";
+
+    public final static
+    String BookigLogin = "https://account.booking.com/sign-in";
+
+    public final static
+    String CheckIn = "2023-05-25";
+
+    public final static
+    String CheckOut = "2023-05-29";
+
+    public final static
+    String City = "Париж";
 }
