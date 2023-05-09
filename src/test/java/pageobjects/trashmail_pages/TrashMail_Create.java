@@ -1,4 +1,4 @@
-package pageobjects.TrahMail;
+package pageobjects.trashmail_pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
