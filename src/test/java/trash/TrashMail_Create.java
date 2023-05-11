@@ -1,4 +1,4 @@
-package pageobjects.trashmail_pages;
+package trash;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,8 +16,9 @@ public class TrashMail_Create {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
         driver.get("https://trashmail.com/");
         driver.findElement(By.xpath("//input[@id='fe-name']")).clear();
-
         make.doubleClick(driver.findElement(By.xpath("//input[@id='fe-name']"))).sendKeys("Oleg_book2").perform();
+
+
         driver.findElement(By.xpath("//input[@id='fe-forward']")).sendKeys("19vova93@mail.ru");
         driver.findElement(By.xpath("//div[@class='input-group input-group-sm input-group-btn']//div[@class='input-group-btn']")).click();
         driver.findElement(By.xpath("//div[@class='input-group input-group-sm input-group-btn']//div[@class='input-group-btn']//li[@role='presentation'][4]")).click();

@@ -1,5 +1,6 @@
 package pageobjects.mailru_pages;
 
+import driver.Driver;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +9,8 @@ import settings.BookingInputR;
 
 
 public class MailRu_Login {
-    WebDriver driver = new ChromeDriver();
+
+    WebDriver driver = Driver.getWebDriver();
 
     private final static String LOGINPAGE = BookingInputR.MainEmail;
     private final static String PASSWORD = "//input[@placeholder=\"Password\"]";
@@ -26,9 +28,8 @@ public class MailRu_Login {
         driver.findElement(By.xpath(NEXTBUTTON)).click();
     }
 
-
     public void InputPassword() throws InterruptedException {
-        Thread.sleep(1000);
+        //Thread.sleep(1000);
         driver.findElement(By.xpath(PASSWORD)).sendKeys(BookingInputR.MainEmailPassword);
         driver.findElement(By.xpath(SUBMITBUTTON)).click();
     }

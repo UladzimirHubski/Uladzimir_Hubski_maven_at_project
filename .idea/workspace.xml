@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="Create Runners">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Login_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/booking_pages/BookingAccount_Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/trashmail_pages/Email_Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/bokingRegistration_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/mailrutest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/bookingacccreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/trashmailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/trash/MailRu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/BookingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BookingSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/booking_pages/BookingLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trash/BookingLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/booking_pages/BookingLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trash/BookingLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Login_Steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_MailBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/trashmail_pages/TrashMail_Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trash/TrashMail_Create.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/settings/BookingInputR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/BookingInputR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/BookingCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trash/BookingCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/homework/BookingColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/homework/BookingColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/homework/BookingFreeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/homework/BookingFreeDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/homework/BookingLangHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/homework/BookingLangHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/homework/BookingRating9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/homework/BookingRating9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,78 +76,96 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Владимир\Uladzimir_Hubski_maven_at_project\src\test\java\driver" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Uladzimir_Hubski\IdeaProjects\Uladzimir_Hubski_maven_at_project\src\test\java\Trash" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MailRu_Login_Steps">
-    <configuration name="MailRu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pageobjects.mailru_pages.MailRu" />
+  <component name="RunManager" selected="JUnit.bookingacccreateTest.ConfirmEmailTest2">
+    <configuration name="bookingacccreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobjects.mailru_pages.*" />
+          <option name="PATTERN" value="test.testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.testng" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.bookingacccreateTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MailRu_Login_Steps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pageobjects.mailru_pages.MailRu_Login_Steps" />
+    <configuration name="bookingacccreateTest.ConfirmEmailTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobjects.mailru_pages.*" />
+          <option name="PATTERN" value="test.testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrashMail_Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pageobjects.trashmail_pages.TrashMail_Create" />
-      <module name="Uladzimir_Hubski_maven_at_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobjects.trashmail_pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MailRu_Login.InputPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uladzimir_Hubski_maven_at_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobjects.mailru_pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobjects.mailru_pages" />
-      <option name="MAIN_CLASS_NAME" value="pageobjects.mailru_pages.MailRu_Login" />
-      <option name="METHOD_NAME" value="InputPassword" />
+      <option name="PACKAGE_NAME" value="test.testng" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.bookingacccreateTest" />
+      <option name="METHOD_NAME" value="ConfirmEmailTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="W3School" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="bookingacccreateTest.CreateEmailTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_maven_at_project" />
-      <option name="PACKAGE_NAME" value="homework" />
-      <option name="MAIN_CLASS_NAME" value="homework.W3School" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.bookingacccreateTest" />
+      <option name="METHOD_NAME" value="CreateEmailTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookingacccreateTest.OpenConfirmationLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uladzimir_Hubski_maven_at_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.bookingacccreateTest" />
+      <option name="METHOD_NAME" value="OpenConfirmationLetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookingacccreateTest.bookingRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uladzimir_Hubski_maven_at_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.bookingacccreateTest" />
+      <option name="METHOD_NAME" value="bookingRegisterTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MailRu_Login_Steps" />
-        <item itemvalue="JUnit.MailRu_Login.InputPassword" />
-        <item itemvalue="Application.MailRu" />
-        <item itemvalue="Application.TrashMail_Create" />
-        <item itemvalue="JUnit.W3School" />
+        <item itemvalue="JUnit.bookingacccreateTest.ConfirmEmailTest2" />
+        <item itemvalue="JUnit.bookingacccreateTest" />
+        <item itemvalue="JUnit.bookingacccreateTest.CreateEmailTest1" />
+        <item itemvalue="JUnit.bookingacccreateTest.OpenConfirmationLetter" />
+        <item itemvalue="JUnit.bookingacccreateTest.bookingRegisterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681404665675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create Runners">
+      <created>1683652966277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683652966277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

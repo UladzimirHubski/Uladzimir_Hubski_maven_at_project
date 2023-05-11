@@ -1,6 +1,6 @@
 package work.homework;
 
-import pageobjects.booking_pages.BookingLocators;
+import trash.BookingLocators;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
