@@ -1,6 +1,6 @@
 package settings;
 
-public class BookingInputR {
+public class BookingInput {
 
     public final static
     String TrashEmail = "LOTT_LOTT_AT_g7";
@@ -15,7 +15,7 @@ public class BookingInputR {
     String City = "Париж";
 
     public final static
-    String MainEmailPassword = "______";
+    String MainEmailPassword = "Amberg01!";
 
     public final static
     String MainEmailLogin = "19vova93";
