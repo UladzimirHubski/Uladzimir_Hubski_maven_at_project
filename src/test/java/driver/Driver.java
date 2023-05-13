@@ -2,6 +2,7 @@ package driver;
 
 import org.openqa.selenium.WebDriver;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 //simple WebDriver singelton
@@ -15,19 +16,18 @@ public class Driver {
         Driver.config = null == config ? Config.valueOf(System.getProperty("CONFIG")) : config;
     }
 
-    public static WebDriver getWebDriver() {
+    public static WebDriver getWebDriver() throws NullPointerException {
         if (webDriver == null) {
-            //вызвать таймаут
             webDriver = DriverManager.getDriver(config);
-            setTimeout(10);
+            setTimeouts(30, 30, 50);
         }
-
         return webDriver;
     }
 
-    public static void setTimeout(int seconds) {
-        if (webDriver != null) {
-            webDriver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
-        }
+    public static void setTimeouts(int scriptTimeOut, int implicityWait, int pageLoadTimeOut) {
+        webDriver.manage().timeouts().scriptTimeout(Duration.ofSeconds(scriptTimeOut));
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicityWait));
+        webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(pageLoadTimeOut));
     }
 }
+
