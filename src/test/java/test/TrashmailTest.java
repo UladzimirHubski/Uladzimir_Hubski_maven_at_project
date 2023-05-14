@@ -1,10 +1,9 @@
 package test;
 
 import org.junit.Test;
-import pageobjects.booking_pages.BookingAccount_Create;
 import pageobjects.trashmail_pages.Email_Create;
 
-public class trashmailTest {
+public class TrashmailTest {
     private final Email_Create createEmail = new Email_Create();
 
 

@@ -22,6 +22,7 @@ public class DriverManager {
     private static WebDriver getChromeDriver() {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("start-maximized");
+        chromeOptions.addArguments("disable-infobars");
         return new ChromeDriver(chromeOptions);
     }
 

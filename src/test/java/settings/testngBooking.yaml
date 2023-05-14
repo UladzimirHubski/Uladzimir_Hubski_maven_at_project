@@ -1,0 +1,6 @@
+name: YAML Test suite
+parallel: classes
+tests:
+  - name: Booking testing
+    classes:
+      - tests.testng.RegisterLogin
