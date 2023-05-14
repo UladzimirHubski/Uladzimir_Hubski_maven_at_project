@@ -44,6 +44,7 @@ public class MailRu_Mail {
     }
 
     public void CheckConfermedEmail() throws InterruptedException {
+        //driver.switchTo().window();
         Assert.assertEquals("Email Confirmed", driver.findElement(By.xpath(CONFIRMEDMESSAGE)).getText());
         LOGGER.trace("Check verification Email" + CONFIRMEDMESSAGE);
     }
