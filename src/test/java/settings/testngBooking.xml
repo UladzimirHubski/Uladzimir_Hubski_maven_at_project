@@ -4,7 +4,7 @@
 <suite name="XML Test suite">
     <test name="Booking testing">
         <classes>
-            <class name="tests.testNG.TestNG_BookingConfEmailTest" />
+            <class name="test.testNG.TestNG_BookingConfEmailTest" />
         </classes>
     </test>
 </suite>
