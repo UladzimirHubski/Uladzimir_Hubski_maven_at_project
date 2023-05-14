@@ -3,7 +3,7 @@ package settings;
 public class BookingInput {
 
     public final static
-    String TrashEmail = "LOTT_LOTT_AT_g7";
+    String TrashEmail = "LOTT1_LOTT2_AT_g7";
 
     public final static
     String CheckIn = "2023-05-25";

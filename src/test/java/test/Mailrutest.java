@@ -8,7 +8,7 @@ import pageobjects.mailru_pages.MailRu_Mail;
 import settings.BookingInput;
 import work.Classwork.day19.L4JLogging;
 
-public class mailrutest {
+public class Mailrutest {
 
     private static final Logger LOGGER = Logger.getLogger(L4JLogging.class.getName());
     private final MailRu_Login loginM = new MailRu_Login();

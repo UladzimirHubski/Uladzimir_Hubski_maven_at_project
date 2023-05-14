@@ -3,7 +3,7 @@ package test;
 import org.junit.Test;
 import pageobjects.booking_pages.BookingAccount_Create;
 
-public class bokingRegistration_Test {
+public class BokingRegistration_Test {
     private final BookingAccount_Create accCreate = new BookingAccount_Create();
 
 

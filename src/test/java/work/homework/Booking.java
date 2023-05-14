@@ -1,5 +1,6 @@
 package work.homework;
 
+import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,16 +8,19 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import work.Classwork.day19.L4JLogging;
 
 import java.time.Duration;
 
 public class Booking {
 
     WebDriver driver = new ChromeDriver();
+    private static final Logger LOGGER = Logger.getLogger(L4JLogging.class.getName());
 
 
     @Before
     public void beforeTest() {
+        LOGGER.info("Test started");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(10));
@@ -25,7 +29,7 @@ public class Booking {
 
     @Test
     public void BookingTest() {
-
+        LOGGER.debug("Test going");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -54,6 +58,7 @@ public class Booking {
     @After
     public void afterTests() {
         driver.quit();
+        LOGGER.debug("Test finished");
     }
 
 

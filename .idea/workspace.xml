@@ -5,23 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="PushUpdates">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/JUnit_Booking_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestNG_XML_Booking_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestNG_YAML_Booking_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/settings/testngBooking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/settings/testngBooking.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/FinishTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testNG/TestNG_BookingConfEmailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/ArraysTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EvenOddCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/EvenOddCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyRunner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/MyRunner1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/booking_pages/BookingAccount_Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/booking_pages/BookingAccount_Create.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Mail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/trashmail_pages/Email_Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/trashmail_pages/Email_Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/BookingCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Cucumber_Booking_Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/BookingInput.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/BookingInputR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/BookingInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/BookingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BookingConfirmEmailSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/mailrutest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/mailrutest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/bookingacccreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/junit/bookingconfemailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/JUnit_Booking_Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Junit_Booking_Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/BookingInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/BookingInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/BookingConfirmEmailSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BookingConfirmEmailSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/bokingRegistration_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BokingRegistration_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/junit/bookingconfemailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/junit/JUnit_BookingConfEmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/mailrutest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Mailrutest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/trashmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TrashmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day15/WeatherRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day15/WeatherRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/homework/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/homework/Booking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,32 +65,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Владимир/Uladzimir_Hubski_maven_at_project/src/test/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Владимир/Uladzimir_Hubski_maven_at_project/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "yaml",
+      "XML"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Владимир\Uladzimir_Hubski_maven_at_project\src\test\java" />
       <recent name="C:\Users\Владимир\Uladzimir_Hubski_maven_at_project\src\test\java\driver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Владимир\Uladzimir_Hubski_maven_at_project\src\test\java\settings" />
       <recent name="C:\Users\Владимир\Uladzimir_Hubski_maven_at_project\src\test\java\work\Classwork\day14" />
       <recent name="C:\Users\Uladzimir_Hubski\IdeaProjects\Uladzimir_Hubski_maven_at_project\src\test\java\Trash" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runners" />
+      <recent name="test.testNG" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Cucumber_Booking_Runner">
+  <component name="RunManager">
     <configuration name="L4JLogging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="work.Classwork.day19.L4JLogging" />
       <module name="Uladzimir_Hubski_maven_at_project" />
@@ -114,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnit_Booking_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Junit_Booking_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +139,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.JUnit_Booking_Runner" />
+      <option name="MAIN_CLASS_NAME" value="runners.Junit_Booking_Runner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mailrutest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Mailrutest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
@@ -138,13 +154,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.mailrutest" />
+      <option name="MAIN_CLASS_NAME" value="test.Mailrutest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mailrutest.MailRuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Mailrutest.MailRuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
@@ -153,7 +169,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.mailrutest" />
+      <option name="MAIN_CLASS_NAME" value="test.Mailrutest" />
       <option name="METHOD_NAME" value="MailRuTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -175,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Mailrutest.MailRuTest" />
         <item itemvalue="JUnit.Cucumber_Booking_Runner" />
-        <item itemvalue="JUnit.mailrutest" />
+        <item itemvalue="JUnit.Mailrutest" />
         <item itemvalue="Application.L4JLogging" />
-        <item itemvalue="JUnit.mailrutest.MailRuTest" />
-        <item itemvalue="JUnit.JUnit_Booking_Runner" />
+        <item itemvalue="JUnit.Junit_Booking_Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683652966277</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PushUpdates">
+      <created>1683981330973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683981330973</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +272,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project" />
     <MESSAGE value="Create Runners" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Runners" />
+    <MESSAGE value="PushUpdates" />
+    <option name="LAST_COMMIT_MESSAGE" value="PushUpdates" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

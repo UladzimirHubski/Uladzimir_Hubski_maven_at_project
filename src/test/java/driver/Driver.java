@@ -3,7 +3,6 @@ package driver;
 import org.openqa.selenium.WebDriver;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 //simple WebDriver singelton
 
