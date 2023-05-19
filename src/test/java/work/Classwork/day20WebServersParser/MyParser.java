@@ -14,7 +14,7 @@ public class MyParser {
     public static void main(String[] args) throws IOException {
         MyParser runParser = new MyParser();
         runParser.parseGSON(); //Парсер JSON
-        runParser.fromJSON();  //Создание JSON
+//        runParser.fromJSON();  //Создание JSON
     }
 
     private static final String JSON = "src/test/resources/recipe.json";
@@ -27,15 +27,15 @@ public class MyParser {
         System.out.println(recipe.getRecipename());
     }
 
-    public void fromJSON() {
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        List<Ingredient> ingredlist = new ArrayList<>();
-        ingredlist.add(new Ingredient(100, "water"));
-        ingredlist.add(new Ingredient(10, "salt"));
-
-        Recipe recipe = new Recipe("Fish", ingredlist, 200);
-        System.out.println(gson.toJson(recipe));
-    }
+//    public void fromJSON() {
+//        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+//        List<Ingredient> ingredlist = new ArrayList<>();
+//        ingredlist.add(new Ingredient(100, "water"));
+//        ingredlist.add(new Ingredient(10, "salt"));
+//
+//        Recipe recipe = new Recipe("Fish", ingredlist, 200);
+//        System.out.println(gson.toJson(recipe));
+//    }
 
     public static String fromGSON(Search search) {
         Gson gson = new Gson();

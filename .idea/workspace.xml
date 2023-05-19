@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="PushUpdates3">
-      <change afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/MyParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/Recipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day21http/MyHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day22httpPost/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day23RestAssure/SearchNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/NamesParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Search/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/objects/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/settings/names.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Mail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestNG_XML_Booking_Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestNG_XML_Booking_Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/testngBooking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/testngBooking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/MyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/MyParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +34,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -92,13 +95,39 @@
       <recent name="test.testNG" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="L4JLogging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work.Classwork.day19.L4JLogging" />
+  <component name="RunManager" selected="Application.NamesParser">
+    <configuration name="MyHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.Classwork.day21http.MyHttpClient" />
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work.Classwork.day19.*" />
+          <option name="PATTERN" value="work.Classwork.day21http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.Classwork.day20WebServersParser.MyParser" />
+      <module name="Uladzimir_Hubski_maven_at_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work.Classwork.day20WebServersParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NamesParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="driver.NamesParser" />
+      <module name="Uladzimir_Hubski_maven_at_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,37 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mailrutest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uladzimir_Hubski_maven_at_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Mailrutest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mailrutest.MailRuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uladzimir_Hubski_maven_at_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Mailrutest" />
-      <option name="METHOD_NAME" value="MailRuTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Uladzimir_Hubski_AT_G7_Maven_Project" />
       <method v="2">
@@ -182,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Mailrutest.MailRuTest" />
-        <item itemvalue="JUnit.Mailrutest" />
+        <item itemvalue="Application.NamesParser" />
+        <item itemvalue="Application.MyHttpClient" />
+        <item itemvalue="Application.MyParser" />
         <item itemvalue="JUnit.Junit_Booking_Runner" />
         <item itemvalue="JUnit.Cucumber_Booking_Runner" />
-        <item itemvalue="Application.L4JLogging" />
       </list>
     </recent_temporary>
   </component>
