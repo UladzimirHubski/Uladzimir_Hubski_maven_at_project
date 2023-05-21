@@ -6,7 +6,7 @@ import org.junit.Test;
 import pageobjects.mailru_pages.MailRu_Login;
 import pageobjects.mailru_pages.MailRu_Mail;
 import settings.BookingInput;
-import work.Classwork.day19.L4JLogging;
+import work.classwork.day19.L4JLogging;
 
 public class Mailrutest {
 

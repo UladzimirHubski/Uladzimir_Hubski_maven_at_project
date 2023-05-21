@@ -6,7 +6,7 @@ import pageobjects.mailru_pages.MailRu_Login;
 import pageobjects.mailru_pages.MailRu_Mail;
 import pageobjects.trashmail_pages.Email_Create;
 import steps.FinishTest;
-import work.Classwork.day19.L4JLogging;
+import work.classwork.day19.L4JLogging;
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

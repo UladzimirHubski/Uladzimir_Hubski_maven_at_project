@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import settings.BookingInput;
-import work.Classwork.day19.L4JLogging;
+import work.classwork.day19.L4JLogging;
 
 
 public class MailRu_Login {

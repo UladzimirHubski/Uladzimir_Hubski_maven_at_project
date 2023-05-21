@@ -7,7 +7,7 @@ import pageobjects.booking_pages.BookingAccount_Create;
 import pageobjects.mailru_pages.MailRu_Login;
 import pageobjects.mailru_pages.MailRu_Mail;
 import pageobjects.trashmail_pages.Email_Create;
-import work.Classwork.day19.L4JLogging;
+import work.classwork.day19.L4JLogging;
 
 public class BookingConfirmEmailSteps {
     private static final Logger LOGGER = Logger.getLogger(L4JLogging.class.getName());

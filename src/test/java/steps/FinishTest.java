@@ -3,7 +3,7 @@ package steps;
 import driver.Driver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import work.Classwork.day19.L4JLogging;
+import work.classwork.day19.L4JLogging;
 
 public class FinishTest {
     private static final Logger LOGGER = Logger.getLogger(L4JLogging.class.getName());

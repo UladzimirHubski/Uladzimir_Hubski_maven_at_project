@@ -9,7 +9,7 @@ import pageobjects.mailru_pages.MailRu_Login;
 import pageobjects.mailru_pages.MailRu_Mail;
 import pageobjects.trashmail_pages.Email_Create;
 import steps.FinishTest;
-import work.Classwork.day19.L4JLogging;
+import work.classwork.day19.L4JLogging;
 
 public class JUnit_BookingConfEmailTest {
     private static final Logger LOGGER = Logger.getLogger(L4JLogging.class.getName());

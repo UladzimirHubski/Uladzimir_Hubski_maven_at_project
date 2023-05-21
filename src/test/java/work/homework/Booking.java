@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import work.Classwork.day19.L4JLogging;
+import work.classwork.day19.L4JLogging;
 
 import java.time.Duration;
 

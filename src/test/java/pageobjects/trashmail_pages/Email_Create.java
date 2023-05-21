@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import settings.BookingInput;
-import work.Classwork.day19.L4JLogging;
+import work.classwork.day19.L4JLogging;
 
 public class Email_Create {
     private static final Logger LOGGER = Logger.getLogger(L4JLogging.class.getName());

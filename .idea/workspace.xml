@@ -4,14 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="PushUpdates3">
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/NamesParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Search/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/objects/Names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/settings/names.json" afterDir="false" />
+    <list default="true" id="83022a2e-2fbd-46dd-a9f0-a3d33a74c36a" name="Changes" comment="Classwork21day">
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/DataParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day24/JunitTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day24/MyJunitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day24/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day24/TestCaseId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day24/TestRailReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day24/TestRailTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/MyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/MyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/NamesParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/NamesParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Search/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Search/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/booking_pages/BookingAccount_Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/booking_pages/BookingAccount_Create.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/mailru_pages/MailRu_Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/objects/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Names.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/trashmail_pages/Email_Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/trashmail_pages/Email_Create.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/names.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/BookingConfirmEmailSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BookingConfirmEmailSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/FinishTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/FinishTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Mailrutest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Mailrutest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/junit/JUnit_BookingConfEmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/junit/JUnit_BookingConfEmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testNG/TestNG_BookingConfEmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testNG/TestNG_BookingConfEmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/ArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day14/ArraysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/EvenOddCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day14/EvenOddCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/MyRunner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day14/MyRunner1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day14/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day14/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day14/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day15/ChromeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day15/ChromeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day15/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day15/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day15/WeatherRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day15/WeatherRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day17/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day17/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day17/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day17/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day17/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day17/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day18Cucumber/DemoJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day18Cucumber/DemoJunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day18Cucumber/DemoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day18Cucumber/DemoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day18Cucumber/DemoSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day18Cucumber/DemoSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day19/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day19/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day19/DbConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day19/DbConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day19/DefaultLogging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day19/DefaultLogging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day19/L4JLogging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day19/L4JLogging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day19/Properies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day19/Properies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day20WebServersParser/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/MyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day20WebServersParser/MyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day20WebServersParser/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day20WebServersParser/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day21http/MyHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day21http/MyHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day22httpPost/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day22httpPost/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/Classwork/day23RestAssure/SearchNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/classwork/day23RestAssure/SearchNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/work/homework/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/work/homework/Booking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +64,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -29,23 +72,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Classwork_day19" />
+        <entry key="$PROJECT_DIR$" value="Homework_day21" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -71,12 +106,15 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;XML&quot;,
-      &quot;yaml&quot;
+      &quot;yaml&quot;,
+      &quot;XML&quot;
     ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="work.classwork.day24" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Владимир\Uladzimir_Hubski_maven_at_project\src\test\java" />
       <recent name="C:\Users\Владимир\Uladzimir_Hubski_maven_at_project\src\test\java\driver" />
@@ -95,13 +133,13 @@
       <recent name="test.testNG" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NamesParser">
-    <configuration name="MyHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work.Classwork.day21http.MyHttpClient" />
+  <component name="RunManager" selected="Application.MyHttpClient">
+    <configuration name="JunitTestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.classwork.day24.JunitTestRunner" />
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work.Classwork.day21http.*" />
+          <option name="PATTERN" value="work.classwork.day24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work.Classwork.day20WebServersParser.MyParser" />
+    <configuration name="MyHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.classwork.day21http.MyHttpClient" />
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work.Classwork.day20WebServersParser.*" />
+          <option name="PATTERN" value="work.classwork.day21http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,31 +173,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cucumber_Booking_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pageobjects.Search.Search" />
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="pageobjects.Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Cucumber_Booking_Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Junit_Booking_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRailTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uladzimir_Hubski_maven_at_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Junit_Booking_Runner" />
+      <option name="PACKAGE_NAME" value="work.classwork.day24" />
+      <option name="MAIN_CLASS_NAME" value="work.classwork.day24.TestRailTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NamesParser" />
         <item itemvalue="Application.MyHttpClient" />
-        <item itemvalue="Application.MyParser" />
-        <item itemvalue="JUnit.Junit_Booking_Runner" />
-        <item itemvalue="JUnit.Cucumber_Booking_Runner" />
+        <item itemvalue="Application.JunitTestRunner" />
+        <item itemvalue="JUnit.TestRailTests" />
+        <item itemvalue="Application.Search" />
+        <item itemvalue="Application.NamesParser" />
       </list>
     </recent_temporary>
   </component>
